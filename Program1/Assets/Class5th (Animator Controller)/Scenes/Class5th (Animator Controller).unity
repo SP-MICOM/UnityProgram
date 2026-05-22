@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 143714844}
   - component: {fileID: 143714843}
   m_Layer: 5
-  m_Name: Die
+  m_Name: Die Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -783,7 +783,7 @@ GameObject:
   - component: {fileID: 1303442366}
   - component: {fileID: 1303442365}
   m_Layer: 5
-  m_Name: Walk
+  m_Name: Walk Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -855,7 +855,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1816270678}
         m_TargetAssemblyTypeName: AnimatorManager, Assembly-CSharp
-        m_MethodName: Attack
+        m_MethodName: Walk
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1234,7 +1234,7 @@ GameObject:
   - component: {fileID: 1582096857}
   - component: {fileID: 1582096856}
   m_Layer: 5
-  m_Name: Attack
+  m_Name: Attack Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1412,7 +1412,7 @@ GameObject:
   - component: {fileID: 1901778938}
   - component: {fileID: 1901778937}
   m_Layer: 5
-  m_Name: Idle
+  m_Name: Idle Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
