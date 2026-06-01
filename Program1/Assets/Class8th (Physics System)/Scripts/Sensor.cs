@@ -1,10 +1,17 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Timeline;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.transform.gameObject.name);
+        Controler controler = other.GetComponent<Controler>();
+
+        if (controler != null)
+        {
+            controler.Soar();
+        }
     }
 
     private void OnTriggerStay(Collider other)
@@ -14,6 +21,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("OnTriggerExit");
+
     }
 }
